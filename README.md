@@ -11,7 +11,7 @@ node server.js
 ```
 发布代码
 ```
-npm run dist
+npm run build
 ```
 
 ###开发
@@ -20,10 +20,14 @@ npm run dist
 <pre>
 .
 ├── README.md           
-├── dist               // 项目build目录
-├── index.html         // 项目入口文件
+├── public/
+|     ├──dist
+|     └──index.html    // 前端资源
+├── app/                // 前端dev
+├── server/             // 服务端dev
+├── database/           // 数据库
+|
 ├── package.json       // 项目配置文件
-├── src                // 生产目录
 ├── server.js          // webpack-dev-server服务配置
 └── webpack.config.js  // Webpack 配置文件
 </pre>
