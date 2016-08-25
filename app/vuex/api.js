@@ -1,4 +1,4 @@
-const API_ROOT = 'http://lgapidoc.applinzi.com/api/';
+const API_ROOT = 'http://yourdatabase.domain.com/api/';
 
 export default {
   navList: API_ROOT + 'getNav',
